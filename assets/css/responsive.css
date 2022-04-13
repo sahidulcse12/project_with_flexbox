@@ -1,0 +1,66 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-title {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-title p {
+        text-align: justify;
+    }
+
+    .about {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+
+}
